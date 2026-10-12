@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
 import Button from './ui/Button'
 
 const Navbar = () => {
@@ -9,8 +7,8 @@ const Navbar = () => {
         Task Manager
       </h4>
       <div className="flex gap-2">
-      <Button text="Login" link="/Login" />
-      <Button text="Sign Up" link="/Signup" />
+      <Button text="Login" link="/login" />
+      <Button text="Sign Up" link="/signup" />
       </div>
     </div>
   )
